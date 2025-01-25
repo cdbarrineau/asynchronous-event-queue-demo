@@ -19,6 +19,8 @@ To run this application, simply clone this repo then at the command line type:
 * `mvn clean compile package`
 * `java -jar target/asynchronous-event-queue-0.0.1.jar`
 
+This does, however require at least Java 17.
+
 This will produce the following output.  As can be seen from the below output, the Basic Listener receives all events of a specific class
 however the Advanced Listener only receives one that has a java Function to test for equality of the id (id of 2).  This is very useful if
 the same event type is received but to verify a test, you need to check for specific properties.
