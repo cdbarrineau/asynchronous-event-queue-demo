@@ -17,7 +17,7 @@ created, to get around these kinds of linting errors.  It uses a combination of 
 ## This is a maven project
 To run this application, simply clone this repo then at the command line type:
 * `mvn clean compile package`
-* java -jar target/asynchronous-event-queue-0.0.1.jar
+* `java -jar target/asynchronous-event-queue-0.0.1.jar`
 
 This will produce the following output.  As can be seen from the below output, the Basic Listener receives all events of a specific class
 however the Advanced Listener only receives one that has a java Function to test for equality of the id (id of 2).  This is very useful if
