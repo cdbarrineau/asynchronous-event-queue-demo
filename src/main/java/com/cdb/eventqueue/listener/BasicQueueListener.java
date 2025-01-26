@@ -6,7 +6,7 @@ import lombok.extern.slf4j.Slf4j;
 import java.util.concurrent.TimeUnit;
 
 /**
- * This interface defines the base set of methods used for listening for events.
+ * This class uses a basic sleep to check for only objects of a certain class.
  *
  * @author David Barrineau
  * @since 1/25/25 2:10 PM
